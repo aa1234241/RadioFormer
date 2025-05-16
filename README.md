@@ -11,7 +11,6 @@
 ```
 pip install -r requirements.txt
 ```
-
 ## Validation code 
 run 
 ```
@@ -27,9 +26,9 @@ radioformer_vit_small
 --checkpoint
 /root_to_ckpt_path/ckpts/fold1.pth.tar
 --results-dir
-/media/userdisk2/baixiaoyu/code/lld_data/ckpts/results
+/path_to_save/results
 --score-dir
-/media/userdisk2/baixiaoyu/code/lld_data/ckpts/results
+/path_to_save/results
 ```
 ## results
 Using the given model, you will obtain results on the LLD-MMRI Phase I validation set as follows:
